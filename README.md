@@ -1,7 +1,5 @@
 <!-- Banner -->
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/00000000/banner.png" alt="Projeto Tela de Login" width="800px">
-</p>
+
 
 # 🔐 Projeto: Tela de Login (Backend e Frontend)
 
@@ -33,15 +31,7 @@ Este projeto é um sistema completo de login com **backend em Node.js e Express*
 
 ---
 
-## 📸 Imagens do Projeto
 
-### 🖥️ Tela de Login  
-<img src="https://user-images.githubusercontent.com/00000000/tela-login.png" width="600px">
-
-### 📋 Tela de Cadastro  
-<img src="https://user-images.githubusercontent.com/00000000/tela-cadastro.png" width="600px">
-
----
 
 ## 🛠️ Como Executar o Projeto
 
