@@ -1,25 +1,65 @@
-📌 Projeto: Tela de Login (Backend e Frontend)
-Este repositório contém um sistema completo de autenticação de usuários, incluindo backend e frontend, desenvolvido com Node.js, Express, Sequelize, MVC, JWT (em uma versão) e uma interface em Next.js e HTML/CSS/JavaScript puro.
+<!-- Banner -->
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/00000000/banner.png" alt="Projeto Tela de Login" width="800px">
+</p>
 
-🛠️ Tecnologias Utilizadas
-🔹 Backend
-Node.js + Express: Para a construção da API REST.
+# 🔐 Projeto: Tela de Login (Backend e Frontend)
 
-Sequelize + MySQL: Para a persistência de dados.
+Este projeto é um sistema completo de login com **backend em Node.js e Express** e **frontend em Next.js e HTML/CSS/JavaScript puro**. Ele permite que os usuários façam cadastro e login com segurança, utilizando **JWT** para autenticação.
 
-JWT (em uma versão): Para autenticação segura.
+---
 
-MVC (Model-View-Controller): Arquitetura para organização do código.
+## 🚀 Tecnologias Utilizadas
 
-🔹 Frontend
-Next.js: Uma versão moderna e performática do frontend.
+### 🔹 Backend
+- 🟢 **Node.js** + **Express**
+- 🛢️ **Sequelize** + **MySQL**
+- 🔒 **JWT (JSON Web Token)**
+- 📂 **Arquitetura MVC**
 
-HTML, CSS e JavaScript Puro: Alternativa simples e direta para o frontend.
+### 🔹 Frontend
+- ⚛️ **Next.js** (React)
+- 🌐 **HTML, CSS e JavaScript Puro**
+- 🎨 **Tailwind CSS** (versão Next.js)
 
-🔑 Funcionalidades
-✅ Cadastro de usuários
-✅ Login com validação de credenciais
-✅ Proteção de rotas com JWT (em uma versão)
-✅ Interface intuitiva para login e registro
+---
 
+## 🔑 Funcionalidades
 
+✅ Cadastro de usuários  
+✅ Login seguro com JWT  
+✅ Proteção de rotas  
+✅ Interface simples e intuitiva  
+
+---
+
+## 📸 Imagens do Projeto
+
+### 🖥️ Tela de Login  
+<img src="https://user-images.githubusercontent.com/00000000/tela-login.png" width="600px">
+
+### 📋 Tela de Cadastro  
+<img src="https://user-images.githubusercontent.com/00000000/tela-cadastro.png" width="600px">
+
+---
+
+## 🛠️ Como Executar o Projeto
+
+### 🔹 Backend
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/projeto-login.git
+
+# Acesse a pasta do backend
+cd backend
+
+# Instale as dependências
+npm install
+
+# Configure o banco de dados no arquivo .env
+
+# Rode as migrações do Sequelize
+npx sequelize db:migrate
+
+# Inicie o servidor
+npm start
